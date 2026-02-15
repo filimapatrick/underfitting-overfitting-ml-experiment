@@ -131,11 +131,10 @@ Model Complexity →
 ## 🚀 Getting Started
 
 ### Prerequisites
-```bash
-pip install numpy matplotlib scikit-learn
-```
+- Python 3.8 or higher
+- Virtual environment (recommended)
 
-### Usage
+### Installation & Setup
 ```bash
 # Clone or download the project
 cd overfitting_ml
@@ -143,8 +142,17 @@ cd overfitting_ml
 # Activate virtual environment
 source .venv/bin/activate
 
+# Install dependencies (within the activated virtual environment)
+pip install -r requirements.txt
+```
+
+### Usage
+```bash
+# Make sure virtual environment is activated
+source .venv/bin/activate
+
 # Run the experiment
-python main.py
+python3 main.py
 ```
 
 ## 📁 Project Structure
